@@ -271,5 +271,10 @@ a{
         margin-top: 10px;
         cursor: pointer;
     }
-
+    .side-nav-sub{
+        padding: 5px;
+    }
+    .search H5{
+        display: none;
+    }
 }
