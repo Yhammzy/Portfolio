@@ -220,7 +220,7 @@ a{
     }
     .hero-info{
         background-color: white;
-        height: 49vh;
+        height: 54vh;
         width: 90%;
         bottom: 26vh;
         left: 5%;
@@ -241,7 +241,7 @@ a{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: 30%;
+        margin-top: 35%;
     }
     .me{
         width: 100%;
