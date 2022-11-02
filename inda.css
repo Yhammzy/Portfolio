@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    padding-right: 20px;
+}
+
+.fa-bars{
+    padding-top: 10px;
+    font-size: 20px !important;
+}
+
+.side-nav{
+    display: flex;
+    gap: 15px;
+}
+
+.side-nav-sub{
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.hero{
+    background-image: radial-gradient(circle at 50% 50%,#737373,#000 100%);
+    height: 60vh;
+    position: relative;
+}
+
+.hero-info{
+    background-color: white;
+    height: 60vh;
+    width: 80%;
+    bottom: 1vh;
+    left: 20vh;
+    border: 1px solid grey;
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-division{
+    width: 50%;
+}
+
+.me{
+    width: 35%;
+    transform: translateY(-30px);
+}
+
+.me img{
+    width: 100%;
+    height: 60vh;
+}
+.letter{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.letter h5{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    width: 4%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.letter h6{
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.hero-info h3{
+    font-size: 40px;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.hero-info h6{
+    font-weight: 100;
+    padding-top: 5px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.net{
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+
+}
+
+.net h3{
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.netinfo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.netinfo h6{
+    font-weight: 100;
+    letter-spacing: none;
+    color: #737373;
+}
+
+.icons{
+    display: flex;
+    gap: 5px;
+    color: #737373;
+    margin-top: 160px;
+    cursor: pointer;
+}
+.fa-share:hover{
+    color: black;
+}
+.hover-i a{
+    display: none;
+    gap: 10px;
+    color: #737373 !important;
+    transition: 0.3s ease-in;
+}
+
+.hover-i a:hover{
+    color: yellow;
+}
+
+.sidemain{
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    bottom: 10px;
+    right: 35%;
+
+}
+.sidemain p{
+    color: #737373;
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 900px){
+    .hero{
+        height: 30vh;
+        position: relative;
+    }
+    .hero-info{
+        background-color: white;
+        height: 40vh;
+        width: 90%;
+        bottom: 40vh;
+        left: 5%;
+        border: 1px solid grey;
+        position: absolute;
+        padding-left: 20px;
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .me{
+        width: 55%;
+        /* transform: translateY(-30px); */
+    }
+    
+    .me img{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .sidemain{
+        display: flex;
+        justify-content: right;
+        position: absolute;
+        bottom: 10px;
+        right: 52%;
+    
+    }
+    
+}
+
+@media (max-width: 760px){
+    .hero{
+        height: 20vh;
+        position: relative;
+    }
+    .hero-info{
+        background-color: white;
+        height: 49vh;
+        width: 90%;
+        bottom: 26vh;
+        left: 5%;
+        border: 1px solid grey;
+        position: absolute;
+        padding-left: 20px;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        z-index: 67;
+        gap: 50px;
+    }
+    .hero-division{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30%;
+    }
+    .me{
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+    
+    .me img{
+        width: 65%;
+        height: 30vh;
+        /* transform: translateY(-10%); */
+        transform: translate(25% ,-30%);
+    }
+
+    .sidemain p{
+        display: none;
+    
+    }
+    .hero-division{
+        width: 100%;
+    }
+    .icons{
+        display: flex;
+        gap: 5px;
+        color: #737373;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .fa-share{
+        display: none;
+    }
+}
