@@ -215,14 +215,14 @@ a{
 
 @media (max-width: 760px){
     .hero{
-        height: 20vh;
+        height: 25vh;
         position: relative;
     }
     .hero-info{
         background-color: white;
-        height: 54vh;
+        height: 60vh;
         width: 90%;
-        bottom: 20vh;
+        bottom: 10vh;
         left: 5%;
         border: 1px solid grey;
         position: absolute;
@@ -242,6 +242,7 @@ a{
         align-items: center;
         flex-direction: column;
         margin-top: 35%;
+        padding-top: 10%;
     }
     .me{
         width: 100%;
