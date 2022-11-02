@@ -265,14 +265,11 @@ a{
         width: 100%;
     }
     .icons{
-        display: flex;
+        display: none;
         gap: 5px;
         color: #737373;
         margin-top: 10px;
         cursor: pointer;
     }
 
-    .fa-share{
-        display: none;
-    }
 }
