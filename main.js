@@ -3,6 +3,14 @@ var list = document.querySelector('.menu')
 var icons = document.querySelector('.hover-i a')
 // var icony = document.querySelectorAll('.fa-heart')
 var icon = document.querySelector('.fa-share')
+//  document.querySelectorAll(".bouncing-title span").forEach(span =>{
+//     span.addEventListener("mouseover", function() {
+//         this.classList.add("bounce")
+//         setTimeout(function() {
+//             this.classList.remove("bounce")
+//         }.bind(this), 1000)
+//     })
+// })
 
 var count = 0
 
